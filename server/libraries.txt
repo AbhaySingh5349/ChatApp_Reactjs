@@ -1,0 +1,15 @@
+// setup node and express
+
+tsc --init
+npm install --save typescript ts-node-dev
+npm install --save express @types/express
+
+// env variables
+
+npm install --save path
+npm install --save dotenv
+
+// mongodb
+
+npm install mongodb
+npm install --save mongoose

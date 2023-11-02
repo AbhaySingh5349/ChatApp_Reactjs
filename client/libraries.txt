@@ -1,0 +1,21 @@
+// initialize client
+
+npx create-react-app react-chat-app --template typescript
+
+// tailwind css
+
+npm install -D tailwindcss
+npx tailwindcss init
+npm install tailwind-scrollbar-hide
+
+// material ui
+
+npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+
+// routing
+
+npm install react-router-dom
+
+// redux-tool-kit (global state management library which allows state to be used across multiple components)
+
+npm install @reduxjs/toolkit react-redux
